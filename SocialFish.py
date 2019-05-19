@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 from flask import Flask, request, render_template, jsonify, redirect, g, flash
-from core.config import *
+from core.config import config
 from core.view import head
 from core.scansf import nScan
 from core.clonesf import clone
